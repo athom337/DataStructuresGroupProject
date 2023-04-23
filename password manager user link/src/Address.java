@@ -7,7 +7,7 @@ import java.util.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Address {
+public class Address extends User{
     private String street;
     private String city;
     private String state;
