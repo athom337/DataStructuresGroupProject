@@ -2,10 +2,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
-        User user1 = new User("johndoe", "johndoe@gmail.com", "password", "123 Main St", "10001");
+//example user
+        User user1 = new User("jamyjames", "jamyjames@gmail.com", "JJjobs", "9721 Baker Ave", "10001");
         user1.linkToPasswordManager();
-
+//example orders
         Order order1 = new Order(100.00, "NY", false);
         Order order2 = new Order(50.00, "HI", false);
         Order order3 = new Order(75.00, "CA", false);
